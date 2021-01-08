@@ -4,11 +4,15 @@ https://programmers.co.kr/learn/courses/30/lessons/43165
 
 
 
+
+
 Sol) 상태 트리 상, 각 numbers 원소에 대해 경우의 수는 2가지 (더하거나, 빼거나 둘 중 하나)
 
 ​		종료조건 :  트리의 Level 
 
 ​						  && total == target
+
+
 
 #### 1. dfs 풀이
 
@@ -63,15 +67,17 @@ def solution(numbers, target):
 
 
 
+
+
 #### 2. bfs 풀이
+
+
 
 bfs는 너비 우선 탐색 ---->선입선출인 큐를 이용해서 트리 구조상 가로 방향으로 수행! 
 
 dfs, bfs 는 항상 트리를 생각해서 풀기(그림 그려서 이해하면 쉬움)
 
 종료조건은 level에 도달 (+ 문제의 조건)
-
-
 
 `collections.deque` 이용하기 위해 	`import collections `  
 
