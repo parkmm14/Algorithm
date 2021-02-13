@@ -3,7 +3,7 @@ import java.util.*;
 배열을 이용하는 hashMap 자료 구조 이용.
 uid와 name을 Key-value 항상 최신화.
 
-닉네임이 바뀌면 이전에 기록된 로그의 닉임도 바꿔야한다.
+닉네임이 바뀌면 이전에 기록된 로그의 닉네임도 바꿔야한다.
 닉네임은 hashMap에 기록하고 ArrayList에 유저id기반의 로그를 기록한다.
 ArrayList를 String 배열에 담으면서 유저ID를 닉네임으로 바꾼다.
 */
